@@ -1,0 +1,43 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    color: white;
+}
+#timer-display {
+    font-size: 10rem;
+    font-weight: bold;
+}
+.controls {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.controls button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+}
+.controls input {
+    font-size: 1.2rem;
+    padding: 10px;
+    width: 60px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+}
+.controls span {
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+#reset-button {
+    display: none; /* Hide reset button by default */
+}
